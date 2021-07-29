@@ -43,7 +43,7 @@ Route::get('/rota2', function () {
     return redirect()->route('site.rota1');
 })->name('site.rota2');
 
-// Route::get('teste', 'TesteController@teste')->name('teste');
+Route::get('/teste/{p1}/{p2}', 'TesteController@teste')->name('teste');
 
 
 Route::fallback(function () {
