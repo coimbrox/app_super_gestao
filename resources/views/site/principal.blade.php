@@ -214,7 +214,7 @@
     <div class="topo">
 
         <div class="logo">
-            <img src="img/logo.png">
+            <img src="{{ asset('img/logo.png') }}">
         </div>
 
         <div class="menu">
@@ -234,11 +234,12 @@
                 <p>Software para gestão empresarial ideal para sua empresa.
                 <p>
                 <div class="chamada">
-                    <img src="/img/check.png">
+                    <img src="{{ asset('img/check.png') }}">
+
                     <span class="texto-branco">Gestão completa e descomplicada</span>
                 </div>
                 <div class="chamada">
-                    <img src="img/check.png">
+                    <img src="{{ asset('img/check.png') }}">
                     <span class="texto-branco">Sua empresa na nuvem</span>
                 </div>
             </div>
